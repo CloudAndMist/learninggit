@@ -1,14 +1,24 @@
-
-.hhh{
+.topcontainer{
   display: flex;
+  padding: 20rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
   align-items: center;
-  justify-content: center;
-  padding-left: 10px;
-  padding-right: 10px;
 }
-.hehehe{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.topleft{
+  width: 50%;
   text-align: center;
+}
+.topright{
+  width: 50%;
+  text-align: center;
+}
+
+.icon{
+  border-radius: 50%;
+}
+
+.topimg{
+  width: 80rpx;
+  height: 80rpx;
 }

@@ -1,2 +1,14 @@
-<!--pages/index2/index2.wxml-->
-<view class="hhh"><navigator class="hehehe" url="/pages/index4/index4" open-type="navigate">去哪里？</navigator></view>
+<view class="topcontainer">
+  <view class="topleft">
+    <view>
+      <image src="/icons/advice.png" class="topimg" bindtap="bindViewTap1"></image>
+    </view>
+    <text style="color:#ff9933">心理咨询</text>
+  </view>
+  <view class="topright">
+    <view>
+      <image src="/icons/lesson.png" class="topimg"></image>
+    </view>
+    <text style="color:#ff9933">心理课程</text>
+  </view>
+</view>
