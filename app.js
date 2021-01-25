@@ -1,3 +1,4 @@
+//branch test
 // app.js
 App({
   onLaunch() {
