@@ -3,16 +3,16 @@ Page({
 
   },  
 
-  //导航心理咨询
-  bindViewTap1() {
+  //导航至心理咨询
+  bindViewTap1:function() {
     wx.navigateTo({
-      url: "pages/img1/img1"
+      url: "/pages/img1/img1"
     })
   },
-  //心理课程咨询
+  //导航至心理课程
   bindViewTap2() {
     wx.navigateTo({
-      url: "pages/img2/img2"
+      url: "/pages/img2/img2"
     })
   }
 })  

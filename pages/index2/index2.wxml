@@ -3,12 +3,12 @@
     <view>
       <image src="/icons/advice.png" class="topimg" bindtap="bindViewTap1"></image>
     </view>
-    <text style="color:#ff9933">心理咨询</text>
+    <text style="color:#ff9933;font-size:30rpx" bindtap="bindViewTap1">心理咨询</text>
   </view>
   <view class="topright">
     <view>
-      <image src="/icons/lesson.png" class="topimg"></image>
+      <image src="/icons/lesson.png" class="topimg" bindtap="bindViewTap2"></image>
     </view>
-    <text style="color:#ff9933">心理课程</text>
+    <text style="color:#ff9933;font-size:30rpx" bindtap="bindViewTap2">心理课程</text>
   </view>
 </view>
